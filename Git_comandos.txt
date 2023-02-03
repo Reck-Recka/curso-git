@@ -1,0 +1,26 @@
+Iniciar en terminal bash de visual studio
+------------------------------------------
+
+git init		En la TERMINAL, guarda los repositorios que vamos haciendo en GIT
+
+git status		Nos informa de nuestro repositorio
+git add index.html	pasa al git area, siempre que se hace un cambio tienes que ponerlo es como guradar
+git add.		Añade toda la carpeta con todos los archivos
+git commit -m "Añadido index.html"		Para nombrarlo
+git log	muestra los commits
+
+_______________________________________________________________________________________________________________
+***En los commits se guardan las versiones, para volver a una version anterior necesitamos los primeros indices
+del commit*****************************
+___________________
+git checkout bd59bb		Para volver a una version anterior
+git checkout master		Vuelve al predeterminado
+--------------------------------------------------------------------
+DESHACER Y RECUPERAR ARCHIVOS
+_______________________________
+
+git reset bd59bb
+git reset --hard bd59bb		Lo elimina para siempre cuidadin
+rm index.html	borrar archivo, pero se puede recuperar
+git restore index.html		restaura el archivo 
+
