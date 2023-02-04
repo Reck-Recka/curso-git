@@ -5,8 +5,8 @@ git init		En la TERMINAL, guarda los repositorios que vamos haciendo en GIT
 
 git status		Nos informa de nuestro repositorio
 git add index.html	pasa al git area, siempre que se hace un cambio tienes que ponerlo es como guradar
-git add.		Añade toda la carpeta con todos los archivos
-git commit -m "Añadido index.html"		Para nombrarlo
+git add .		Añade toda la carpeta con todos los archivos con el . (punto) 
+git commit -m "Añadido index.html"		Para nombrarlo y añadirlo en un commit que creaste con el git add
 git log	muestra los commits
 
 _______________________________________________________________________________________________________________
@@ -23,4 +23,41 @@ git reset bd59bb
 git reset --hard bd59bb		Lo elimina para siempre cuidadin
 rm index.html	borrar archivo, pero se puede recuperar
 git restore index.html		restaura el archivo 
+
+________________________________________________________________
+En terminal: [ Servidores de GitHub ]
+
+git remote add origin https://github.com/Reck-Recka/curso-git.git		sube los cambios a github
+git remote -v		muestra la version del servidor
+
+Ir a la pagina web para crear el SSH para usar la autenticacion para subirlo a los servidores
+https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Y ahora en el Git-Bash:
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+nos pedira contraseña: **	cA2e-rT5l--002Sl
+
+http://localhost:62605
+
+____________________________________________________
+
+git push -u origin master	
+
+-------------------------------------------------------------------------------------------
+RAMAS		El master es el principal pero se crea una especie de arbol para subir los repositorios especificos
+		recuerda la sintaxis añadir el feature-y el nombre que defina el cambio
+
+git checkout -b feature-posts-styles
+git branch						nos enseña las ramas que hay
+
+
+
+
+
+
+
+
+
 
