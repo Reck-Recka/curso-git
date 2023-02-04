@@ -1,13 +1,13 @@
 body {
-    background-color: black;
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d2127;
+    color: #fff;
+    font-family:  Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica;
     padding: 0;
     margin: 0;
 
 }
 
-.h1 {
+h1 {
     margin: 0 0 0 8px;
     padding-top: 8px;
 
@@ -16,12 +16,12 @@ body {
 .bar {
     background-color: #464b55;
     padding: 10px;
-    display: flexbox;
+    display: flex;
 
 }
 
 .logo {
-    width: 90px;
+    width: 50px;
     height: 50px;
 
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .post {
-    background-color: #282c64;
+    background-color: #282c34;
     margin-bottom: 15px;
     padding: 5px 20px 5px 20px;
     border-radius: 12px;
